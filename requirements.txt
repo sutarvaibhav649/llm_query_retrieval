@@ -5,4 +5,5 @@ python-docx
 pymupdf
 sentence-transformers
 faiss-cpu
-llama-cpp-python
+python-dotenv
+dotenv
