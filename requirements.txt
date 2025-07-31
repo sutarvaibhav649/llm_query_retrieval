@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+requests
+docx
+pymupdf
+sentence-transformers
+faiss-cpu
+llama-cpp-python
