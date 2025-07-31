@@ -1,7 +1,7 @@
 fastapi
 uvicorn
 requests
-docx
+python-docx
 pymupdf
 sentence-transformers
 faiss-cpu

@@ -1,5 +1,5 @@
 import fitz
-import docx
+from docx import Document
 from typing import List, Dict
 import requests
 import tempfile
@@ -20,7 +20,7 @@ def parse_pdf(file_path: str) -> List[Dict]:
     return chunks
 
 def parse_docx(file_path: str) -> List[Dict]:
-    doc = docx.Document(file_path)
+    doc =Document(file_path)
     return [{"paragraph": i+1, "text": para.text.strip()} for i, para in enumerate(doc.paragraphs) if para.text.strip()]
 
 def parse_document_from_url(url: str) -> dict:
