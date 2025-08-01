@@ -44,3 +44,4 @@ poetry.lock
 *.bin
 *.pth
 *.pt
+.vercel
