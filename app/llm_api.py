@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-HF_API_TOKEN = os.getenv("HF_API_TOKEN")  # keep this token secret
+HF_API_TOKEN = os.getenv("HF_API_TOKEN") 
 API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2"
 
 headers = {
